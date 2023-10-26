@@ -22,7 +22,7 @@ public static void main(String[] args ){
             System.out.println("Hey Bob!");
         }
         else{
-            System.out.println("Not Bob or Alice, get outta here!");
+            System.out.println("You are neither Alice or Bob");
         }
     };
 
