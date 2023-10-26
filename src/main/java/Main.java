@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args ){
+public static void main(String[] args ){
 
         // Get name from user
         Scanner scanner = new Scanner(System.in);
@@ -15,10 +15,14 @@ public class Main {
 
         //Check to see if it is 'Bob' or 'Alice
         //Greet if name = 'Bob' or 'Alice'
-        if(name.equals("Alice") || name.equals("Bob")) {
-            System.out.println("Hey Bob or Alice");
-        }else{
-            System.out.println("Not Bob or Alice");
+        if(name.equals("Alice")) {
+            System.out.println("Good to see you, Alice");
+        }
+        else if(name.equals("Bob")){
+            System.out.println("Hey Bob!");
+        }
+        else{
+            System.out.println("Not Bob or Alice, get outta here!");
         }
     };
 
